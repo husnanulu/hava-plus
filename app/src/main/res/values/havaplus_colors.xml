@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#4FB0EE</color>
+    <color name="hava_sky">#4FB0EE</color>
+    <color name="hava_yellow">#FFD21F</color>
+    <color name="hava_ink">#1F2430</color>
+</resources>

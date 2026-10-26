@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Hava+ sistem açılış ekranı</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#FFD21F}a:hover{color:#FFE47A}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; position: relative; background: #1A2A6C; display: flex; align-items: center; justify-content: center; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #FFFFFF">
+<svg width="160" height="160" viewBox="0 0 120 120" role="img" aria-label="Hava+"><g stroke="{{accent}}" stroke-width="7" stroke-linecap="round"><line x1="98" y1="60" x2="110" y2="60"></line><line x1="86.87" y1="86.87" x2="95.36" y2="95.36"></line><line x1="60" y1="98" x2="60" y2="110"></line><line x1="33.13" y1="86.87" x2="24.64" y2="95.36"></line><line x1="22" y1="60" x2="10" y2="60"></line><line x1="33.13" y1="33.13" x2="24.64" y2="24.64"></line><line x1="60" y1="22" x2="60" y2="10"></line><line x1="86.87" y1="33.13" x2="95.36" y2="24.64"></line></g><circle cx="60" cy="60" r="28" fill="{{accent}}"></circle><rect x="56" y="44" width="8" height="32" rx="4" fill="#1A2A6C"></rect><rect x="44" y="56" width="32" height="8" rx="4" fill="#1A2A6C"></rect></svg>
+<div style="position: absolute; left: 0; right: 0; bottom: 56px; display: flex; justify-content: center">
+<div style="font-size: 22px; font-weight: 800; letter-spacing: -0.5px">Hava<span style="color: {{accent}}">+</span></div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#FFD21F","options":["#FFD21F","#FFFFFF","#6FD3FF"]},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#FFD21F' };
+}
+}
+</script>
+</body>
+</html>

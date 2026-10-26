@@ -5,5 +5,49 @@
     -->
 
     <!-- Telefonun ana ekranında görünen uygulama adı. -->
-    <string name="app_name">Hava</string>
+    <string name="app_name">Hava+</string>
+
+    <!-- Ortak -->
+    <string name="action_retry">Tekrar dene</string>
+    <string name="action_back">Geri</string>
+    <string name="today">Bugün</string>
+
+    <!-- Ana ekran -->
+    <string name="action_change_city">Şehir değiştir</string>
+    <string name="action_add_favorite">Favorilere ekle</string>
+    <string name="action_remove_favorite">Favorilerden çıkar</string>
+    <string name="action_share">Tahmini paylaş</string>
+    <string name="home_range">En yüksek %1$s · En düşük %2$s</string>
+    <string name="advice_title">BUGÜN İÇİN ÖNERİ</string>
+    <string name="detail_hourly">Saatlik</string>
+    <string name="detail_daily">7 Günlük</string>
+    <string name="detail_feels_like">Hissedilen</string>
+    <string name="detail_humidity">Nem</string>
+    <string name="detail_wind">Rüzgâr</string>
+    <string name="wind_value">%1$d km/sa</string>
+    <string name="no_value">–</string>
+    <string name="forecast_empty">Bu şehir için tahmin bulunamadı.</string>
+    <string name="location_off_banner">Konum izni kapalı. Son baktığın şehir gösteriliyor.</string>
+    <string name="action_use_location">Konumumu kullan</string>
+    <string name="fizy_subtitle">Havaya göre seçildi</string>
+    <string name="fizy_listen">fizy\'de dinle</string>
+    <string name="share_button">Tahmini BiP\'te ya da başka yerde paylaş</string>
+    <string name="share_text">Hava+ · %1$s bugün %2$s, %3$s. %4$s</string>
+    <string name="link_open_failed">Bağlantı açılamadı</string>
+    <string name="data_source">Veri: Open-Meteo · Hava+ · KAMP+</string>
+
+    <!-- Şehir seç ekranı -->
+    <string name="cities_title">Şehir seç</string>
+    <string name="search_hint">Şehir ara</string>
+    <string name="action_clear">Temizle</string>
+    <string name="my_location">Konumum</string>
+    <string name="location_searching">Konum bulunuyor…</string>
+    <string name="favorites_header">FAVORİLERİM</string>
+    <string name="recent_header">SON ARAMALAR</string>
+    <string name="recent_clear">Temizle</string>
+    <string name="action_remove_recent">Son aramalardan kaldır</string>
+    <string name="favorites_empty">Yıldıza dokunarak şehir ekleyebilirsin.</string>
+    <string name="results_header">ARAMA SONUÇLARI · \"%1$s\"</string>
+    <string name="city_not_found_title">Şehir bulunamadı</string>
+    <string name="city_not_found_message">Yazımı kontrol et ya da başka bir şehir dene.</string>
 </resources>

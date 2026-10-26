@@ -1,57 +1,47 @@
 package com.kampplus.hava.ui.theme
 
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 
 /**
- * Açık tema paleti. Her Material rolü ([Color.kt]'deki) bir renge bağlanır:
- * `primary` ana vurgu, `surface` kart zemini, `onSurface` o zemindeki yazı rengidir.
+ * Hava+ paleti. Her Material rolü ([Color.kt]'deki) bir marka rengine bağlanır:
+ * `primary` vurgu mavisi, `background` ekran zemini, `surface` kart beyazı,
+ * `onSurface` kart üstündeki lacivert yazıdır.
  */
-private val LightColors = lightColorScheme(
-    primary = Teal40,
-    onPrimary = Neutral99,
-    primaryContainer = Teal90,
-    onPrimaryContainer = Teal10,
-    secondary = Amber40,
-    secondaryContainer = Amber90,
-    background = Neutral99,
-    onBackground = Neutral10,
-    surface = Neutral99,
-    onSurface = Neutral10,
-    surfaceVariant = NeutralVariant90,
-    onSurfaceVariant = NeutralVariant30,
-    surfaceContainer = Neutral95,
-    error = Red40
-)
-
-/** Koyu tema paleti. Aynı roller, koyu zemine uygun tonlarla. */
-private val DarkColors = darkColorScheme(
-    primary = Teal80,
-    onPrimary = Teal20,
-    primaryContainer = Teal30,
-    onPrimaryContainer = Teal90,
-    secondary = Amber80,
-    background = Neutral10,
-    onBackground = Neutral90,
-    surface = Neutral10,
-    onSurface = Neutral90,
-    onSurfaceVariant = NeutralVariant90,
-    error = Red80
+private val HavaColors = lightColorScheme(
+    primary = Blue,
+    onPrimary = CardWhite,
+    primaryContainer = BadgeBlue,
+    onPrimaryContainer = Navy,
+    secondary = HavaYellow,
+    onSecondary = Navy,
+    secondaryContainer = HavaYellow,
+    onSecondaryContainer = Navy,
+    background = ScreenBackground,
+    onBackground = Navy,
+    surface = CardWhite,
+    onSurface = Navy,
+    surfaceVariant = BorderColor,
+    onSurfaceVariant = SecondaryText,
+    surfaceContainer = CardWhite,
+    surfaceContainerLow = CardWhite,
+    surfaceContainerHighest = CardWhite,
+    outline = BorderColor,
+    outlineVariant = DividerColor,
+    error = ErrorRed
 )
 
 /**
  * Uygulamanın teması. Bütün ekranlar bunun içine sarmalanır.
  *
- * @param darkTheme Varsayılan olarak telefonun sistem ayarını izler
- *   ([isSystemInDarkTheme]). @Preview'larda elle `true` verip koyu temayı deneyebilirsin.
+ * `dynamicColor` (Android 12'nin duvar kâğıdından renk alması) bilerek KULLANILMAZ:
+ * marka renkleri her telefonda aynı görünmeli. Karanlık tema şimdilik yok.
  */
 @Composable
-fun HavaTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
+fun HavaTheme(content: @Composable () -> Unit) {
     MaterialTheme(
-        colorScheme = if (darkTheme) DarkColors else LightColors,
+        colorScheme = HavaColors,
         typography = HavaTypography,
         content = content
     )

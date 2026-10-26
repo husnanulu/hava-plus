@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Güneş + bulut: adaptive icon güvenli alanı (66dp) içinde çizilir. -->
+<!-- Hava+ "+°" işareti. 120x120 tasarım, 108dp güvenli alana %56 ölçekle ortalandı. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-  android:width="108dp"
-  android:height="108dp"
-  android:viewportWidth="108"
-  android:viewportHeight="108">
-  <path
-    android:fillColor="#FFD54F"
-    android:pathData="M46,44m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
-  <path
-    android:fillColor="#00000000"
-    android:pathData="M46,26L46,21M46,67L46,62M28,44L23,44M64,44L69,44M33,31L29.5,27.5M59,31L62.5,27.5M33,57L29.5,60.5"
-    android:strokeWidth="3"
-    android:strokeColor="#FFD54F"
-    android:strokeLineCap="round" />
-  <path
-    android:fillColor="#FFFFFF"
-    android:pathData="M44,78L74,78A10,10 0,0 0,74 58A13,13 0,0 0,49.5 60.5A9,9 0,0 0,44 78Z" />
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateX="18.2" android:translateY="23.2" android:scaleX="0.56" android:scaleY="0.56">
+        <path android:fillColor="#FFD21F" android:pathData="M50,38 a9,9 0 0 1 9,9 v46 a9,9 0 0 1 -18,0 v-46 a9,9 0 0 1 9,-9 z" />
+        <path android:fillColor="#FFD21F" android:pathData="M27,61 h46 a9,9 0 0 1 0,18 h-46 a9,9 0 0 1 0,-18 z" />
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="10" android:pathData="M92,13 a13,13 0 1 1 0,26 a13,13 0 1 1 0,-26 z" />
+    </group>
 </vector>

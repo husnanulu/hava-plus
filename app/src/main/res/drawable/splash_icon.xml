@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hava+ "+°" işareti. 120x120 tasarım, 108dp güvenli alana %56 ölçekle ortalandı. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateX="18.2" android:translateY="23.2" android:scaleX="0.56" android:scaleY="0.56">
+        <path android:fillColor="#FFD21F" android:pathData="M50,38 a9,9 0 0 1 9,9 v46 a9,9 0 0 1 -18,0 v-46 a9,9 0 0 1 9,-9 z" />
+        <path android:fillColor="#FFD21F" android:pathData="M27,61 h46 a9,9 0 0 1 0,18 h-46 a9,9 0 0 1 0,-18 z" />
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="10" android:pathData="M92,13 a13,13 0 1 1 0,26 a13,13 0 1 1 0,-26 z" />
+    </group>
+</vector>
