@@ -16,6 +16,7 @@ Bilişim Kampı (KAMP+) Android eğitiminin `weather-app` projesinden doğdu.
     <td align="center"><img src="docs/ekran/gokyuzu-yagmur.png" width="180" alt="Yağmurlu havada gökyüzü"></td>
     <td align="center"><img src="docs/ekran/izin-yok.png" width="180" alt="Konum izni kapalı"></td>
     <td align="center"><img src="docs/ekran/sehir-sec.png" width="180" alt="Şehir seç ekranı"></td>
+    <td align="center"><img src="docs/ekran/muzik-karti.png" width="180" alt="Müzik önerisi kartı ve paylaş butonu"></td>
   </tr>
   <tr>
     <td align="center">Açık (Dubai)</td>
@@ -23,6 +24,7 @@ Bilişim Kampı (KAMP+) Android eğitiminin `weather-app` projesinden doğdu.
     <td align="center">Yağmurlu (Bergen)</td>
     <td align="center">Konum izni yok</td>
     <td align="center">Şehir seç</td>
+    <td align="center">Müzik önerisi</td>
   </tr>
 </table>
 
